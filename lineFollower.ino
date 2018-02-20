@@ -38,7 +38,7 @@ void loop()
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
   // set speed to 200 out of possible range 0~255
-  analogWrite(enB, 200);
+  analogWrite(enB, 200); 
   Serial.print("forward");
   }
   
